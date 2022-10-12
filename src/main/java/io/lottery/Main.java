@@ -18,7 +18,7 @@ public class Main {
                         userNumber[i] = number;
                         break;
                     } else {
-                        System.out.println(number + " is not between 1 and 49. Please try again.");
+                        System.out.println(number + " is not between 1 and 99. Please try again.");
                     }
                 } catch (NumberFormatException numberFormatException) {
                     System.out.println("This is not a number. Please try again.");
